@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 200%;
+}
+
+.container {
+  background: cyan;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 10%;
+  background: darkgoldenrod;
+}
+.box2 {
+  background: chartreuse;
+  position: relative;
+  left: 1rem;
+}
+.box3 {
+  background: coral;
+  position: sticky;
+  top: 0%;
+}
+
+.box1 {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
